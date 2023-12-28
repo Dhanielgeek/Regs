@@ -1,0 +1,432 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  
+  .errorText{
+    color: red;
+    font-size: 14px;
+  }
+  .bodySIGN{
+    width: 100%;
+    height: 105vh;
+     background: #003459;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .loader{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .SignUpContentDownWrap{
+    width: 30%;
+    height: 99%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 7px;
+    padding: 0 20px;
+    padding-top: 17px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    /* border: 2px solid #3F51B5; */
+  }
+  
+  .SignUpContentDownInitials{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .SignUpContentDownInitials h1{
+    font-weight: 500;
+    font-size: 25px;
+  }
+  
+  .SignUpContentDownForm{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .SignUpContentDownFormNames{
+    width: 100%;
+    height: 18%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .SignUpContentDownFormFName{
+    width: 48%;
+    height: 100%;
+   
+  }
+  
+  .SignUpContentDownFormFNameLabels{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  
+  
+  .SignUpContentDownFormFNameInputs{
+    width: 100%;
+    height: 50%;
+  }
+  .SignUpContentDownFormFNameInputs input{
+    width: 100%;
+    height: 100%;
+    padding-left: 7px;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+  }
+  
+  .SignUpContentDownFormFNameInputs{
+    width: 100%;
+    height: 50%;
+  }
+  
+  .SignUpContentDownFormLName{
+    width: 48%;
+    height: 100%;
+  }
+  
+  .SignUpContentDownFormLNameLabels{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  
+  .SignUpContentDownFormLNameInputs{
+    width: 100%;
+    height: 50%;
+  }
+  .SignUpContentDownFormLNameInputs input{
+    width: 100%;
+    height: 100%;
+    padding-left: 7px;
+    border: 2px solid lightgray;
+    border-radius: 5px; 
+  }
+  
+  .SignUpContentDownFormMail{
+    width: 100%;
+    height: 18%;
+  }
+  
+  .SignUpContentDownFormMailLabels{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  
+  .SignUpContentDownFormMailInputs{
+    width: 100%;
+    height: 50%;
+  }
+  
+  .SignUpContentDownFormMailInputs input{
+    width: 100%;
+    height: 100%;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+  }
+  
+  .SignUpContentDownFormPhone{
+    width: 100%;
+    height: 18%;
+  }
+  .SignUpContentDownFormPhoneLabels{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  
+  .SignUpContentDownFormPhoneInputs{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+  }
+  
+  .SignUpContentDownFormPhoneFlag{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+  }
+  .SignUpContentDownFormPhoneFlag img{
+    width: 40%;
+    height: 50%;
+  }
+  
+  .SignUpContentDownFormPhoneInputs input{
+    width: 80%;
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+  }
+  .SignUpContentDownFormPhoneInputs input{
+    outline: none;
+  }
+  
+  .SignUpContentDownFormPwd{
+    width: 100%;
+    height: 18%;
+  }
+  
+  .SignUpContentDownFormPwdLabels{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  
+  .SignUpContentDownFormPwdInputs{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+  }
+  .SignUpContentDownFormPwdInputs input{
+    width: 90%;
+    height: 100%;
+    border: none;
+    outline: none;
+  }
+  
+  .SignUpContentDownFormPwdEyes{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .SignUpContentDownFormPwdEyes .AiOutlineEye{
+    width: 80%;
+    height: 80%;
+    cursor: pointer;
+  }
+  .SignUpContentDownFormPwdEyes .AiOutlineEyeInvisible{
+    width: 80%;
+    height: 80%;
+    cursor: pointer;
+  }
+  
+  .SignUpContentDownFormCPwd{
+    width: 100%;
+    height: 18%;
+  }
+  
+  .SignUpContentDownFormCPwdlabels{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  
+  .SignUpContentDownFormcPwdInputs{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+  }
+  .SignUpContentDownFormcPwdInputs input{
+    width: 90%;
+    height: 100%;
+    outline: none;
+    border: none;
+  }
+  
+  .SignUpContentDownFormCPwdEyes{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .SignUpContentDownFormCPwdEyes .AiOutlineEyeInvisible{
+    width: 80%;
+    height: 80%;
+    cursor: pointer;
+  }
+  .SignUpContentDownFormCPwdEyes .AiOutlineEye{
+    width: 80%;
+    height: 80%;
+    cursor: pointer;
+  }
+  
+  input{
+    padding-left: 10px;
+  }
+  
+  .SignUpContentDownBtn{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .SignUpContentDownBtn button{
+    width: 100%;
+    height: 80%;
+    cursor: pointer;
+    background-color: #00171f;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+  }
+  .SignUpContentDownBtn button:disabled{
+    background: #8593d7;
+    cursor: not-allowed;
+  }
+  
+  .Validation_Process {
+    width:300px;
+    height: 350px;
+    position: fixed;
+    right: 7%;
+    bottom: 10%;
+  }
+  
+  .Validation_Head {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    /* justify-content: center; */
+    font-weight: bold;
+    color: #000000cc;
+  }
+  
+  .Validation_Body {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    padding-left: 12.5%;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .Validation_Body span{
+    font-size: 17px;
+    font-weight: 500;
+    font-family: monospace;
+    border-radius: 3px;
+    /* color: red; */
+  }
+  
+  .criteria-error {
+    color: red;
+  }
+  
+  .criteria-success {
+    color: green;
+  }
+  .loginHolder{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #003459;
+}
+.login_hold{
+    width: 70%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+form{
+    width: 50%;
+    height: 80%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    
+    
+}
+input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    outline: none;
+}
+.forgot-password{
+    width: 100%; 
+    height: 40px;
+    text-align: right;
+    text-decoration: none;
+    color: black;
+}
+h2{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 700;
+    color:black;
+}
+label{
+    font-size: 20px;
+    color: black;
+}
+button{
+    padding: 10px 40px 10px 40px;
+    margin: 10px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background: #00171f;
+
+}
+.signup-link{
+    text-align: center;
+    color: black;
+}
+.INK{
+    text-decoration: none;
+    color: red;
+}
